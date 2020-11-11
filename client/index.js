@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
+    fetch('http:/localhost:5000/getAll')
+    .then(res => res.json()) // 작성자는 res 대신에 response라고 했는데 나는 인자를 response대신에 res로 뒀기때문에 괜찮은듯
+    .then(data => console.log(data));
     loadHTMLTable([]); // 함수의 인자에 빈배열을 넣을 수 있다는 것을 지금 처음 알았음
 });
 
