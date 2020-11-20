@@ -6,7 +6,7 @@ const { urlencoded } = require('express');
 
 dotenv.config();
 
-const dbService = require('./dbService');
+const dbService = require('./dbService');                                                                    
 
 app.use(cors());
 app.use(express.json());
@@ -23,6 +23,7 @@ app.get('/getAll', (req, res) => {
     res.json({
         success: true // 브라우저 f12 console 창에 보임
     })
+    console.log('굳');
 })
 
 //update
