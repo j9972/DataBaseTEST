@@ -1,3 +1,5 @@
+// nodemon 다운은 npm nodemon --save-dev 이렇게 하면 된다
+
 document.addEventListener('DOMContentLoaded', () => {
     fetch('http:/localhost:5000/getAll')
     .then(res => res.json()) // 작성자는 res 대신에 response라고 했는데 나는 인자를 response대신에 res로 뒀기때문에 괜찮은듯
