@@ -2,6 +2,8 @@ const mysql = require('mysql');
 const dotenv = require('dotenv');
 dotenv.config();
 
+// mysql 강의에서 지원하는 코드인데 나는 아래에서 나오는 코드는 내가한것
+
 // const connection = mysql.createConnection({
 //     host : process.env.HOST,
 //     user : process.env.USER,
