@@ -2,7 +2,7 @@ const mysql = require('mysql');
 const dotenv = require('dotenv');
 dotenv.config();
 
-// mysql 강의에서 지원하는 코드인데 나는 아래에서 나오는 코드는 내가한것 + git에서 에러가 나서 해결해보는중
+// mysql 강의에서 지원하는 코드인데 나는 아래에서 나오는 코드는 내가한것 + git에서 에러가 나서 해결해보는중 2
 
 // const connection = mysql.createConnection({
 //     host : process.env.HOST,
