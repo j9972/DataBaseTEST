@@ -12,11 +12,11 @@ dotenv.config();
 //     port : process.env.DB_PORT,
 // });
 
-const connection = mysql.createConnection ({
+const connection = mysql.createConnection ({ // workbench를 이용한 사람은 이런식으로 mysql을 연결 시킴
     host : "localhost",
     user : "tutorial",
     password : "password",
-    database : 'web_app',
+    database : 'web_app', // workbench에서 스키마의 이름을 써야 하는거같은데
     port : 3306,
     insecureAuth : true,
 })
